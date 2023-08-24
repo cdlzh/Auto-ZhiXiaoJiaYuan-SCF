@@ -1,0 +1,9 @@
+name: "Sign"
+
+on:
+  workflow_dispatch:
+  schedule:
+    -  cron:  "00 23 * * *"
+    -  cron:  "0 10 * * *"
+
+jobs:
